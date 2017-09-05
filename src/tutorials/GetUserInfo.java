@@ -18,6 +18,7 @@ public class GetUserInfo {
 		System.out.println("Your name is " + name);
 		System.out.println("Your age is " + age);
 		
+		inputDevice.close();
 	}
 
 }
