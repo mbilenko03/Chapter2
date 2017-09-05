@@ -9,7 +9,7 @@ public class IntegerDemoInteractive
 	public static void main(String[] args)
 	{
 		
-		//pg84
+		//Page 84
 		
 		Scanner input = new Scanner(System.in);
 		
