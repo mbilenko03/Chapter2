@@ -5,7 +5,8 @@ public class IntegerDemo
 
 	public static void main(String[] args) 
 	{
-		//pg66
+		//Page 66
+		
 		int anInt= 1234;
 		byte aByte = 12;
 		short aShort = 12345;
