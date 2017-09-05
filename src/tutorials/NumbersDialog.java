@@ -2,9 +2,11 @@ package tutorials;
 
 import javax.swing.JOptionPane;
 
-public class NumbersDialog {
+public class NumbersDialog 
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		
 		int creditDays = 30;
 		
