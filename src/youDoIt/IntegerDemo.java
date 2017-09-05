@@ -19,7 +19,6 @@ public class IntegerDemo
 		System.out.println("The long is " + aLong);
 		
 		System.out.println("Another int is " + anotherInt);
-
 	}
 
 }
