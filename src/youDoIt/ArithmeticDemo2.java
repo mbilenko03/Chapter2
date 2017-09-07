@@ -18,8 +18,8 @@ public class ArithmeticDemo2
 		System.out.print("Please enter another double: ");
 		secondNumber = input.nextDouble();
 		
-		sum = firstNumber + secondNumber
-		difference = firstNumber - secondNumber
+		sum = firstNumber + secondNumber;
+		difference = firstNumber - secondNumber;
 		average = sum / 2;
 		
 		System.out.printf(firstNumber + " + " + secondNumber + " is " + sum + "\n");
