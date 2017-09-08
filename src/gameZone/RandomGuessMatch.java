@@ -16,29 +16,23 @@ public class RandomGuessMatch
 		int userNumber = inputDevice.nextInt();
 		inputDevice.close();
 		
-		while (!isCorrect) 
-		{
-			CheckUserNumber(random, userNumber);
-		}
-
-	}
-	
-	public static void CheckUserNumber(int random, int userNumber) 
-	{
-
-
+		int difference = Math.abs(random - userNumber);
+		
 		if (userNumber == random) 
 		{
 			isCorrect = true;
 			System.out.println("You guessed the number correctly!");
 			System.out.println(isCorrect);
+			System.out.println("Your number equals the random number is " + isCorrect);
 		}
 		else 
 		{
-			System.out.println("You are off by" + (random - userNumber));
-			System.out.println(isCorrect);
+			System.out.println("You are off by " + (difference));
+			System.out.println("The random number was " + random);
+			System.out.println("Your guess was " + isCorrect);
 		}
-		
+
 	}
+	
 
 }
