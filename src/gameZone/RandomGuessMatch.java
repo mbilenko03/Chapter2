@@ -11,19 +11,21 @@ public class RandomGuessMatch
 		//generate random number
 		int random = 1 + (int)(Math.random() * 5);
 		
-		while (!isCorrect) 
-		{
-			CheckUserNumber(random);
-		}
-
-	}
-	
-	public static void CheckUserNumber(int random) 
-	{
 		Scanner inputDevice = new Scanner(System.in);
 		System.out.print("Guess a number between 1 and 5: ");
 		int userNumber = inputDevice.nextInt();
 		inputDevice.close();
+		
+		while (!isCorrect) 
+		{
+			CheckUserNumber(random, userNumber);
+		}
+
+	}
+	
+	public static void CheckUserNumber(int random, int userNumber) 
+	{
+
 
 		if (userNumber == random) 
 		{
